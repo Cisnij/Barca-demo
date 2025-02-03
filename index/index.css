@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    height: 100vh;
+    background-image: url('https://inkythuatso.com/uploads/thumbnails/800/2022/05/hinh-nen-barca-dep-cho-dien-thoai-3-inkythuatso-24-15-14-51.jpg');
+    animation: bc 55s linear infinite forwards;
+    box-sizing: border-box; 
+}
+@keyframes bc{
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
+
+header{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #A50044;
+    padding:20px;
+    
+    
+}
+nav{
+    background-color: #012243;
+    padding: 15px;
+}
+#h1{
+    text-align: right;
+    position: absolute;
+    left: 90%;
+    bottom: 87%;
+    color: #A50044;
+}
+@keyframes tit{
+    0%{
+        
+        color:black
+    }
+    50%{
+        color:#1c1392
+    }
+    100%
+    {
+        color:#012243
+    }
+}
+nav a{
+    text-decoration: none;
+    color:#A50044;
+    font-size: 20px;
+    padding: 40px;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
+footer{
+    background-color: rgb(197, 126, 126);
+    width: 98.89%;
+    margin-top: 750px;
+    padding: 10px;
+
+}
+h2{
+    padding: 5px 200px 10px 140px;
+}
+th{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#h1{
+    background-color: black;
+}
